@@ -1,0 +1,545 @@
+{
+  "generated_at_utc": "2026-11-18T18:06:07.947000+00:00",
+  "market": "Binance Spot",
+  "source": "https://data-api.binance.vision",
+  "pairs_requested": 18,
+  "pairs_ok": 17,
+  "pairs_errors": {
+    "TONUSDT": "ValueError: Latest closed hour is more than two hours old"
+  },
+  "timeframes": [
+    "1h",
+    "4h"
+  ],
+  "closed_only": true,
+  "safety": "Public delayed OHLCV only; not live executable bid/ask, margin borrowing or liquidation data.",
+  "pairs": [
+    {
+      "symbol": "BTCUSDT",
+      "market": "Binance Spot",
+      "source": "https://data-api.binance.vision/api/v3/klines",
+      "as_of_utc": "2026-11-18T17:59:59.999000+00:00",
+      "last_closed_price": 63109.73,
+      "change24_pct": -1.125,
+      "quote_volume24h_usdt": 1254079425.51,
+      "hour": {
+        "trend": "down",
+        "ema20": 63997.17570307,
+        "ema50": 64415.63169591,
+        "ema200": 67643.04048972,
+        "rsi14": 34.29,
+        "atr14": 561.06614301,
+        "last_closed_utc": "2026-11-18T17:59:59.999000+00:00"
+      },
+      "four_hour": {
+        "trend": "down",
+        "ema20": 64978.15524606,
+        "ema50": 67687.79714317,
+        "ema200": 75279.71904479,
+        "rsi14": 33.54,
+        "atr14": 1182.39762273,
+        "last_closed_utc": "2026-11-18T15:59:59.999000+00:00"
+      },
+      "support_prev20_4h": 63336.0,
+      "resistance_prev20_4h": 66132.01,
+      "last_closed_4h_volume_ratio": 1.182,
+      "candle_policy": "closed-only; 4h built from 4 aligned closed 1h bars"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "market": "Binance Spot",
+      "source": "https://data-api.binance.vision/api/v3/klines",
+      "as_of_utc": "2026-11-18T17:59:59.999000+00:00",
+      "last_closed_price": 1768.48,
+      "change24_pct": -1.088,
+      "quote_volume24h_usdt": 554772605.25,
+      "hour": {
+        "trend": "down",
+        "ema20": 1792.53133877,
+        "ema50": 1805.8455258,
+        "ema200": 1907.85388271,
+        "rsi14": 37.84,
+        "atr14": 20.65466464,
+        "last_closed_utc": "2026-11-18T17:59:59.999000+00:00"
+      },
+      "four_hour": {
+        "trend": "down",
+        "ema20": 1823.03257223,
+        "ema50": 1909.62919013,
+        "ema200": 2181.0774171,
+        "rsi14": 35.37,
+        "atr14": 42.1791939,
+        "last_closed_utc": "2026-11-18T15:59:59.999000+00:00"
+      },
+      "support_prev20_4h": 1751.39,
+      "resistance_prev20_4h": 1866.89,
+      "last_closed_4h_volume_ratio": 1.287,
+      "candle_policy": "closed-only; 4h built from 4 aligned closed 1h bars"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "market": "Binance Spot",
+      "source": "https://data-api.binance.vision/api/v3/klines",
+      "as_of_utc": "2026-11-18T17:59:59.999000+00:00",
+      "last_closed_price": 73.56,
+      "change24_pct": 1.63,
+      "quote_volume24h_usdt": 177250291.43,
+      "hour": {
+        "trend": "mixed",
+        "ema20": 74.01627926,
+        "ema50": 73.55360297,
+        "ema200": 76.95377674,
+        "rsi14": 46.81,
+        "atr14": 0.92866644,
+        "last_closed_utc": "2026-11-18T17:59:59.999000+00:00"
+      },
+      "four_hour": {
+        "trend": "down",
+        "ema20": 73.77575905,
+        "ema50": 77.04393689,
+        "ema200": 91.17587259,
+        "rsi14": 46.24,
+        "atr14": 1.87603824,
+        "last_closed_utc": "2026-11-18T15:59:59.999000+00:00"
+      },
+      "support_prev20_4h": 69.5,
+      "resistance_prev20_4h": 75.78,
+      "last_closed_4h_volume_ratio": 1.027,
+      "candle_policy": "closed-only; 4h built from 4 aligned closed 1h bars"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "market": "Binance Spot",
+      "source": "https://data-api.binance.vision/api/v3/klines",
+      "as_of_utc": "2026-11-18T17:59:59.999000+00:00",
+      "last_closed_price": 583.27,
+      "change24_pct": -0.62,
+      "quote_volume24h_usdt": 76725125.86,
+      "hour": {
+        "trend": "down",
+        "ema20": 588.50305892,
+        "ema50": 590.96690051,
+        "ema200": 619.49425566,
+        "rsi14": 37.09,
+        "atr14": 4.23476904,
+        "last_closed_utc": "2026-11-18T17:59:59.999000+00:00"
+      },
+      "four_hour": {
+        "trend": "down",
+        "ema20": 595.49016439,
+        "ema50": 619.86231192,
+        "ema200": 683.88941489,
+        "rsi14": 35.02,
+        "atr14": 9.48011191,
+        "last_closed_utc": "2026-11-18T15:59:59.999000+00:00"
+      },
+      "support_prev20_4h": 580.78,
+      "resistance_prev20_4h": 599.72,
+      "last_closed_4h_volume_ratio": 1.135,
+      "candle_policy": "closed-only; 4h built from 4 aligned closed 1h bars"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "market": "Binance Spot",
+      "source": "https://data-api.binance.vision/api/v3/klines",
+      "as_of_utc": "2026-11-18T17:59:59.999000+00:00",
+      "last_closed_price": 0.9786,
+      "change24_pct": 2.054,
+      "quote_volume24h_usdt": 105378836.05,
+      "hour": {
+        "trend": "mixed",
+        "ema20": 0.98140158,
+        "ema50": 0.97492687,
+        "ema200": 1.01049204,
+        "rsi14": 49.32,
+        "atr14": 0.01179565,
+        "last_closed_utc": "2026-11-18T17:59:59.999000+00:00"
+      },
+      "four_hour": {
+        "trend": "mixed",
+        "ema20": 0.97645291,
+        "ema50": 1.01153518,
+        "ema200": 1.17747664,
+        "rsi14": 48.44,
+        "atr14": 0.02401846,
+        "last_closed_utc": "2026-11-18T15:59:59.999000+00:00"
+      },
+      "support_prev20_4h": 0.9424,
+      "resistance_prev20_4h": 1.0078,
+      "last_closed_4h_volume_ratio": 1.137,
+      "candle_policy": "closed-only; 4h built from 4 aligned closed 1h bars"
+    },
+    {
+      "symbol": "LINKUSDT",
+      "market": "Binance Spot",
+      "source": "https://data-api.binance.vision/api/v3/klines",
+      "as_of_utc": "2026-11-18T17:59:59.999000+00:00",
+      "last_closed_price": 9.063,
+      "change24_pct": -0.494,
+      "quote_volume24h_usdt": 11140768.32,
+      "hour": {
+        "trend": "down",
+        "ema20": 9.14076501,
+        "ema50": 9.17641361,
+        "ema200": 9.59693504,
+        "rsi14": 42.1,
+        "atr14": 0.10423266,
+        "last_closed_utc": "2026-11-18T17:59:59.999000+00:00"
+      },
+      "four_hour": {
+        "trend": "down",
+        "ema20": 9.24285114,
+        "ema50": 9.60750253,
+        "ema200": 10.94654031,
+        "rsi14": 38.57,
+        "atr14": 0.22372332,
+        "last_closed_utc": "2026-11-18T15:59:59.999000+00:00"
+      },
+      "support_prev20_4h": 8.937,
+      "resistance_prev20_4h": 9.41,
+      "last_closed_4h_volume_ratio": 0.899,
+      "candle_policy": "closed-only; 4h built from 4 aligned closed 1h bars"
+    },
+    {
+      "symbol": "ADAUSDT",
+      "market": "Binance Spot",
+      "source": "https://data-api.binance.vision/api/v3/klines",
+      "as_of_utc": "2026-11-18T17:59:59.999000+00:00",
+      "last_closed_price": 0.1517,
+      "change24_pct": -0.197,
+      "quote_volume24h_usdt": 14972828.23,
+      "hour": {
+        "trend": "down",
+        "ema20": 0.15298394,
+        "ema50": 0.15349561,
+        "ema200": 0.16162,
+        "rsi14": 42.75,
+        "atr14": 0.00176623,
+        "last_closed_utc": "2026-11-18T17:59:59.999000+00:00"
+      },
+      "four_hour": {
+        "trend": "down",
+        "ema20": 0.15478736,
+        "ema50": 0.16184531,
+        "ema200": 0.19165969,
+        "rsi14": 38.36,
+        "atr14": 0.00392166,
+        "last_closed_utc": "2026-11-18T15:59:59.999000+00:00"
+      },
+      "support_prev20_4h": 0.1484,
+      "resistance_prev20_4h": 0.1567,
+      "last_closed_4h_volume_ratio": 1.404,
+      "candle_policy": "closed-only; 4h built from 4 aligned closed 1h bars"
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "market": "Binance Spot",
+      "source": "https://data-api.binance.vision/api/v3/klines",
+      "as_of_utc": "2026-11-18T17:59:59.999000+00:00",
+      "last_closed_price": 6.988,
+      "change24_pct": -1.591,
+      "quote_volume24h_usdt": 9939811.68,
+      "hour": {
+        "trend": "down",
+        "ema20": 7.09229763,
+        "ema50": 7.15364851,
+        "ema200": 7.61105361,
+        "rsi14": 38.64,
+        "atr14": 0.09327931,
+        "last_closed_utc": "2026-11-18T17:59:59.999000+00:00"
+      },
+      "four_hour": {
+        "trend": "down",
+        "ema20": 7.25262719,
+        "ema50": 7.61917658,
+        "ema200": 8.65196261,
+        "rsi14": 34.48,
+        "atr14": 0.19924092,
+        "last_closed_utc": "2026-11-18T15:59:59.999000+00:00"
+      },
+      "support_prev20_4h": 6.957,
+      "resistance_prev20_4h": 7.342,
+      "last_closed_4h_volume_ratio": 0.893,
+      "candle_policy": "closed-only; 4h built from 4 aligned closed 1h bars"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "market": "Binance Spot",
+      "source": "https://data-api.binance.vision/api/v3/klines",
+      "as_of_utc": "2026-11-18T17:59:59.999000+00:00",
+      "last_closed_price": 0.0588,
+      "change24_pct": 0.376,
+      "quote_volume24h_usdt": 21698450.7,
+      "hour": {
+        "trend": "down",
+        "ema20": 0.05915677,
+        "ema50": 0.05924632,
+        "ema200": 0.06243663,
+        "rsi14": 44.74,
+        "atr14": 0.00065426,
+        "last_closed_utc": "2026-11-18T17:59:59.999000+00:00"
+      },
+      "four_hour": {
+        "trend": "down",
+        "ema20": 0.05971376,
+        "ema50": 0.06251347,
+        "ema200": 0.07216924,
+        "rsi14": 41.25,
+        "atr14": 0.00140419,
+        "last_closed_utc": "2026-11-18T15:59:59.999000+00:00"
+      },
+      "support_prev20_4h": 0.05716,
+      "resistance_prev20_4h": 0.06045,
+      "last_closed_4h_volume_ratio": 0.929,
+      "candle_policy": "closed-only; 4h built from 4 aligned closed 1h bars"
+    },
+    {
+      "symbol": "TRXUSDT",
+      "market": "Binance Spot",
+      "source": "https://data-api.binance.vision/api/v3/klines",
+      "as_of_utc": "2026-11-18T17:59:59.999000+00:00",
+      "last_closed_price": 0.3088,
+      "change24_pct": 0.652,
+      "quote_volume24h_usdt": 21844846.64,
+      "hour": {
+        "trend": "up",
+        "ema20": 0.30879529,
+        "ema50": 0.30783134,
+        "ema200": 0.31048105,
+        "rsi14": 53.13,
+        "atr14": 0.00082579,
+        "last_closed_utc": "2026-11-18T17:59:59.999000+00:00"
+      },
+      "four_hour": {
+        "trend": "mixed",
+        "ema20": 0.30795999,
+        "ema50": 0.31054486,
+        "ema200": 0.3208336,
+        "rsi14": 54.55,
+        "atr14": 0.00192356,
+        "last_closed_utc": "2026-11-18T15:59:59.999000+00:00"
+      },
+      "support_prev20_4h": 0.3023,
+      "resistance_prev20_4h": 0.3103,
+      "last_closed_4h_volume_ratio": 1.278,
+      "candle_policy": "closed-only; 4h built from 4 aligned closed 1h bars"
+    },
+    {
+      "symbol": "UNIUSDT",
+      "market": "Binance Spot",
+      "source": "https://data-api.binance.vision/api/v3/klines",
+      "as_of_utc": "2026-11-18T17:59:59.999000+00:00",
+      "last_closed_price": 5.189,
+      "change24_pct": -0.879,
+      "quote_volume24h_usdt": 20541213.31,
+      "hour": {
+        "trend": "down",
+        "ema20": 5.20560361,
+        "ema50": 5.22281621,
+        "ema200": 5.63128857,
+        "rsi14": 47.25,
+        "atr14": 0.07805034,
+        "last_closed_utc": "2026-11-18T17:59:59.999000+00:00"
+      },
+      "four_hour": {
+        "trend": "down",
+        "ema20": 5.2739298,
+        "ema50": 5.64135682,
+        "ema200": 6.56524706,
+        "rsi14": 36.62,
+        "atr14": 0.16413776,
+        "last_closed_utc": "2026-11-18T15:59:59.999000+00:00"
+      },
+      "support_prev20_4h": 4.931,
+      "resistance_prev20_4h": 5.454,
+      "last_closed_4h_volume_ratio": 0.803,
+      "candle_policy": "closed-only; 4h built from 4 aligned closed 1h bars"
+    },
+    {
+      "symbol": "LTCUSDT",
+      "market": "Binance Spot",
+      "source": "https://data-api.binance.vision/api/v3/klines",
+      "as_of_utc": "2026-11-18T17:59:59.999000+00:00",
+      "last_closed_price": 43.75,
+      "change24_pct": -1.197,
+      "quote_volume24h_usdt": 13448723.07,
+      "hour": {
+        "trend": "down",
+        "ema20": 44.26306499,
+        "ema50": 44.59189403,
+        "ema200": 46.96390395,
+        "rsi14": 39.81,
+        "atr14": 0.46698589,
+        "last_closed_utc": "2026-11-18T17:59:59.999000+00:00"
+      },
+      "four_hour": {
+        "trend": "down",
+        "ema20": 45.08120581,
+        "ema50": 47.02542337,
+        "ema200": 53.62209246,
+        "rsi14": 36.19,
+        "atr14": 0.98641083,
+        "last_closed_utc": "2026-11-18T15:59:59.999000+00:00"
+      },
+      "support_prev20_4h": 43.71,
+      "resistance_prev20_4h": 45.8,
+      "last_closed_4h_volume_ratio": 1.586,
+      "candle_policy": "closed-only; 4h built from 4 aligned closed 1h bars"
+    },
+    {
+      "symbol": "NEARUSDT",
+      "market": "Binance Spot",
+      "source": "https://data-api.binance.vision/api/v3/klines",
+      "as_of_utc": "2026-11-18T17:59:59.999000+00:00",
+      "last_closed_price": 3.253,
+      "change24_pct": 2.554,
+      "quote_volume24h_usdt": 77457991.24,
+      "hour": {
+        "trend": "mixed",
+        "ema20": 3.30130184,
+        "ema50": 3.27542295,
+        "ema200": 3.36728907,
+        "rsi14": 43.72,
+        "atr14": 0.0609435,
+        "last_closed_utc": "2026-11-18T17:59:59.999000+00:00"
+      },
+      "four_hour": {
+        "trend": "down",
+        "ema20": 3.2744037,
+        "ema50": 3.37360533,
+        "ema200": 4.09869343,
+        "rsi14": 44.97,
+        "atr14": 0.12177791,
+        "last_closed_utc": "2026-11-18T15:59:59.999000+00:00"
+      },
+      "support_prev20_4h": 3.09,
+      "resistance_prev20_4h": 3.43,
+      "last_closed_4h_volume_ratio": 1.603,
+      "candle_policy": "closed-only; 4h built from 4 aligned closed 1h bars"
+    },
+    {
+      "symbol": "SUIUSDT",
+      "market": "Binance Spot",
+      "source": "https://data-api.binance.vision/api/v3/klines",
+      "as_of_utc": "2026-11-18T17:59:59.999000+00:00",
+      "last_closed_price": 0.7158,
+      "change24_pct": -0.528,
+      "quote_volume24h_usdt": 15318068.03,
+      "hour": {
+        "trend": "down",
+        "ema20": 0.72340782,
+        "ema50": 0.72588019,
+        "ema200": 0.76206064,
+        "rsi14": 41.9,
+        "atr14": 0.00925058,
+        "last_closed_utc": "2026-11-18T17:59:59.999000+00:00"
+      },
+      "four_hour": {
+        "trend": "down",
+        "ema20": 0.73197593,
+        "ema50": 0.7632867,
+        "ema200": 0.88335253,
+        "rsi14": 39.74,
+        "atr14": 0.02015983,
+        "last_closed_utc": "2026-11-18T15:59:59.999000+00:00"
+      },
+      "support_prev20_4h": 0.706,
+      "resistance_prev20_4h": 0.7446,
+      "last_closed_4h_volume_ratio": 1.02,
+      "candle_policy": "closed-only; 4h built from 4 aligned closed 1h bars"
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "market": "Binance Spot",
+      "source": "https://data-api.binance.vision/api/v3/klines",
+      "as_of_utc": "2026-11-18T17:59:59.999000+00:00",
+      "last_closed_price": 108.6,
+      "change24_pct": -1.541,
+      "quote_volume24h_usdt": 10580132.8,
+      "hour": {
+        "trend": "down",
+        "ema20": 110.20213514,
+        "ema50": 110.35315966,
+        "ema200": 113.50127208,
+        "rsi14": 41.94,
+        "atr14": 1.66985835,
+        "last_closed_utc": "2026-11-18T17:59:59.999000+00:00"
+      },
+      "four_hour": {
+        "trend": "down",
+        "ema20": 110.54246396,
+        "ema50": 113.68380567,
+        "ema200": 131.83099922,
+        "rsi14": 41.63,
+        "atr14": 3.17416883,
+        "last_closed_utc": "2026-11-18T15:59:59.999000+00:00"
+      },
+      "support_prev20_4h": 103.73,
+      "resistance_prev20_4h": 114.51,
+      "last_closed_4h_volume_ratio": 1.308,
+      "candle_policy": "closed-only; 4h built from 4 aligned closed 1h bars"
+    },
+    {
+      "symbol": "APTUSDT",
+      "market": "Binance Spot",
+      "source": "https://data-api.binance.vision/api/v3/klines",
+      "as_of_utc": "2026-11-18T17:59:59.999000+00:00",
+      "last_closed_price": 0.4294,
+      "change24_pct": -2.895,
+      "quote_volume24h_usdt": 3847866.46,
+      "hour": {
+        "trend": "down",
+        "ema20": 0.43902981,
+        "ema50": 0.44708561,
+        "ema200": 0.49477948,
+        "rsi14": 32.58,
+        "atr14": 0.00647064,
+        "last_closed_utc": "2026-11-18T17:59:59.999000+00:00"
+      },
+      "four_hour": {
+        "trend": "down",
+        "ema20": 0.45722371,
+        "ema50": 0.49584401,
+        "ema200": 0.63425063,
+        "rsi14": 29.46,
+        "atr14": 0.01390712,
+        "last_closed_utc": "2026-11-18T15:59:59.999000+00:00"
+      },
+      "support_prev20_4h": 0.4315,
+      "resistance_prev20_4h": 0.4708,
+      "last_closed_4h_volume_ratio": 1.509,
+      "candle_policy": "closed-only; 4h built from 4 aligned closed 1h bars"
+    },
+    {
+      "symbol": "DOTUSDT",
+      "market": "Binance Spot",
+      "source": "https://data-api.binance.vision/api/v3/klines",
+      "as_of_utc": "2026-11-18T17:59:59.999000+00:00",
+      "last_closed_price": 0.716,
+      "change24_pct": -1.513,
+      "quote_volume24h_usdt": 2065677.85,
+      "hour": {
+        "trend": "down",
+        "ema20": 0.72606428,
+        "ema50": 0.73073125,
+        "ema200": 0.77708638,
+        "rsi14": 37.39,
+        "atr14": 0.00816667,
+        "last_closed_utc": "2026-11-18T17:59:59.999000+00:00"
+      },
+      "four_hour": {
+        "trend": "down",
+        "ema20": 0.73862695,
+        "ema50": 0.77811588,
+        "ema200": 0.94465911,
+        "rsi14": 35.85,
+        "atr14": 0.01758369,
+        "last_closed_utc": "2026-11-18T15:59:59.999000+00:00"
+      },
+      "support_prev20_4h": 0.708,
+      "resistance_prev20_4h": 0.747,
+      "last_closed_4h_volume_ratio": 1.443,
+      "candle_policy": "closed-only; 4h built from 4 aligned closed 1h bars"
+    }
+  ]
+}
